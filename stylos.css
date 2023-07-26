@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container-fluid{
+    background-color: rgb(6, 148, 48);
+    padding: 0;
+    
+}
+.bg-body-tertiary{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#nav{
+    padding: 0;
+    position: relative;
+    right: 6em;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+
+    
+}
+ul li{
+ 
+        margin: 0.5em;
+
+
+}
+
+ul li a:hover{
+color: white;
+}
+ul a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+a.navbar-brand{
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 6em;
+
+}
+
+#ora{
+    color: white;
+}
+
+.imagen-fondo{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/imagenes/hawaii.jpg);
+  background-position: left 80%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 33em;
+
+}
+
+#ora2{
+    color: black;
+    text-align: center;
+   
+}
+main section div h6{
+    text-align: center;
+    position: relative;
+}
+
+.texto1{    
+   
+    color: white;
+    width: 32em;
+    height: 11em;
+    position: relative;
+    left: 36.3em;
+    top: 8.8em;
+    text-align: right;
+    text-decoration: solid;
+    
+    font-size: large;
+   
+}
+.botones{
+    position: relative;
+    top: 10em;
+    left: 56.3em;
+    height: 3em;
+    width: 25em;    
+    display: flex;
+}
+
+ 
+main div h2{
+    color: white
+}
+
+main div p{
+    color: white;
+}
+
+.btn-outline-primary{
+    color: rgb(250, 244, 244);
+  text-decoration: double;
+  border-color: white;
+  border-radius: 5px;
+  font-size: large;
+  
+}
+.btn-primary{
+    background-color: rgb(21, 138, 21);
+    border: rgb(21, 138, 21);
+    position: relative;
+    left: 0.6em;
+    border-radius: 5px;
+    font-size: large;
+    
+}
+#conoce{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.flex-container{
+    width: 100%;
+    height: 33em;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item1{
+    width: 24%;
+    height: 95%;
+    border: 1px solid rgb(207, 205, 205);
+    margin-right: 3%;
+    border-radius: 1%;
+    
+}
+
+.imagenes10{
+    width: 100%;
+}
+
+.flex-item2{
+    width: 24%;
+    height: 95%;
+    border: 1px solid rgb(207,205,205);
+    margin-right: 3%;
+    border-radius: 1%;
+}
+
+.flex-item3{
+    width: 24%;
+    height: 95%;
+    border: 1px solid rgb(207,205,205);
+    border-radius: 1%;
+}
+
+.j1{
+    padding-left: 5%;
+   
+}
+.j2{
+    margin: 8px.0px.8px.0px;
+    background-color: yellow;
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: black;
+}
+
+.r1{
+    background-color:rgb(11, 177, 243);
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+    margin-left: 2%;
+    margin-top: 8px;
+    border-radius: 10%;
+}
+
+#j2{
+    margin: 8px.0px.8px.0px;
+    background-color: gray;
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+}
+#r1{
+    background-color:rgb(182, 4, 4);
+    border-radius: 10%;
+    font-size:x-small;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+    margin-left: 2%;
+    margin-top: 8px;
+    border-radius: 10%;
+}
+
+.letras2{
+    margin: 0%;
+    padding-left: 5%;
+    font-size:larger;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.lore{
+    padding-left: 5%;
+    font-size:small;
+    color: black;
+}
+
+.flex-container2{
+    width: 100%;
+    height: 28em;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#conviertete{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.item22{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/honolulu.jpg);
+    background-size: cover;
+}
+.item23{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(68, 67, 67);
+   
+    
+   
+}
+
+.bloque{
+    display: block;
+    color: white;
+    padding-left: 10px;
+}
+
+#bs{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#t34{   
+    font-size: small;
+}
+
+#bot{
+background-color: rgb(68, 67, 67);
+color: white;
+border: 1px solid white;
+border-radius: 5px;
+padding: 5px;
+font-size: 14px;
+margin-left: 6px;
+}
+
+#cuentanos{
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+#estil{
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
+
+.form-contenedor{
+    display: flex;
+    width: 100%;
+    height: 20em;
+    flex-direction: column;    
+}
+
+.datos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 10px;
+}
+.nombre{
+    width: 25%;
+    padding-right: 10px;   
+}
+.apellido{
+    width: 25%;
+    padding-left: 10px;
+    
+}
+.inombre{
+    width: 100%;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 4px;
+    height: 100%;
+    
+}
+.iapellido{
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    
+}
+.area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.tarea{
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 4px;
+    width: 50%;
+}
+.form-parra{
+    width: 67%;
+    display: flex;  
+    justify-content: center;
+    padding-top: 5px;
+
+    
+}
+#parrafo-formulario{
+    color: rgb(131, 126, 126);
+    font-size: small;
+   
+}
+.for-bot{
+    justify-content: center;
+    display: flex;
+    height: 40px;
+}
+
+.botoncito{
+    border-radius: 4px;
+    width: 680px;
+    background-color: rgb(43, 184, 43);
+}
+.site-footer{
+    background-color: rgb(35, 57, 105);
+    width: 100%;
+    height: 90px;
+    
+    display: flex;
+}
+.footer-nav{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.footer-ul{
+    width: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulario-10{
+height: 260px;
+}
+
+.cajitafeliz{
+    width: 100%;
+    height: 11em;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+.descuento1{
+    
+    border: 1px solid rgb(73, 168, 231);
+    width: 15%;
+    height: 70%;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-right: 1%;
+    margin-top: 2%;
+ 
+
+}
+
+.descuento2{
+    margin-top: 2%;
+    border: 1px solid rgb(247, 182, 71);
+    width: 15%;
+    height: 70%;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.des1{
+  width: 100%;
+  color: black;
+  margin-bottom: 1px;
+       
+}
+
+.tv{
+    text-align: center;
+}
+#tv1{
+    margin-bottom: 0px;
+}
+
+#tv2{
+    font-size: xx-large;
+}
+
+.contenedorinput{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   
+    
+}
+
+.input2{
+    width: 25%;
+    margin-right: 1%;
+    border: 1px solid rgb(160, 209, 241);
+    border-radius: 3px;
+}
+
+#contenedorinputid{
+    margin-top: 1%;
+}
+
+#inputcorreo{
+    margin-right: 1%;
+    width: 51%;
+    border: 1px solid rgb(160, 209, 241);
+    border-radius: 3px;
+}
+
+#labelcant{
+   
+   margin-left: 24%;
+}
+
+#labelcant2{
+    margin-left: 21.5%;
+}
+.contenedorinput4{
+    width: 100%;
+    
+    display: flex;
+}
+
+#cant2{
+    margin-left: -1%;
+}
+
+.pagar{
+    width: 51.5%;
+    text-align: left;
+    background-color: aqua;
+    margin-top: 0.5%;
+    border-radius: 3px;
+    margin-left: -1%;
+
+}
+
+#pag{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+#h5f{
+    color: rgb(57, 70, 245);
+    margin-left: 3%;
+    
+}
+
+.botoncitos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1%;
+    height: 2em;
+    margin-bottom: 1%;
+}
+
+#b1{
+    width: 25%;
+    margin-right: 1%;
+    background-color: rgb(86, 245, 86);
+    border-radius: 4px;
+}
+
+#b2{
+    width: 25%;
+    margin-right: 1%;
+    background-color: rgb(86, 245, 86);
+    border-radius: 4px;
+}
+
+#seleccion{
+    border: 1px solid rgb(160, 209, 241);
+    border-radius: 3px;
+    width: 25%;
+}
+
+#contruyo{
+    text-align: center;
+}
